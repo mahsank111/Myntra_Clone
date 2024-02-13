@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="font-size: medium;">
+      <img (click)="f1()" style="margin-right: 0.6em;" width="28" height="30" src="https://img.icons8.com/ios-filled/50/000000/left.png" alt="left" />  <b>SHOPPING BAG</b> 
+      <img style="float: right;" width="22" height="23" src="https://img.icons8.com/ios/50/like.png" alt="like" [routerLink]="['/wishlist']"/>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div style="padding-left: 65px; ">
+    <span><img width="64" height="64" src="https://img.icons8.com/pastel-glyph/64/FA5252/shopping-trolley--v1.png" alt="shopping-trolley--v1"/></span>
+    <br>
+    <br>
+  
+    <h5 style="color: black; font-size: medium;">Hey, it feels so light!</h5>
+    <p style="color: grey; font-size: small; ">There is nothing in your bag, Let's add some items.</p>
+    <br>
+    <ion-button shape="round" fill="outline" color="danger" >Add items from wishlist</ion-button>
+    <ion-button shape="round" fill="outline" color="dark">Men</ion-button>
+    <ion-button shape="round" fill="outline" color="dark">Women</ion-button>
+    <ion-button shape="round" fill="outline" color="dark">KIDS</ion-button>
+    <ion-button shape="round" fill="outline" color="dark">Personal Care</ion-button>
+
+  </div>
+</ion-content>

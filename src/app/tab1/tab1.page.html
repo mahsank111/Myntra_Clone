@@ -1,0 +1,221 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <div style="display: flex;justify-content: space-between;">
+        <img src="https://aartisto.com/wp-content/uploads/2020/11/myntra-1200x900.png" class="img-circle" alt="Cinque Terre" width="15%" height="18%">
+        <div style="width: 100px;">
+
+          <img style="margin-right: 0.6em;" width="21" height="22" src="https://img.icons8.com/ios/50/appointment-reminders--v1.png" alt="...." [routerLink]="['/notification']" />
+
+          <img style="margin-right: 0.6em;" width="22" height="23" src="https://img.icons8.com/ios/50/like.png" alt="like" [routerLink]="['/wishlist']"/>
+
+          <img style="margin-right: 0.6em;" width="22" height="22" src="https://img.icons8.com/ios/50/shopping-bag--v1.png" alt="shopping-bag--v1" [routerLink]="['/cart']"/>
+
+        </div>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- search bar -->
+<ion-content [fullscreen]="true">
+<ion-searchbar animated="true" placeholder="Search for brands and products"></ion-searchbar>
+
+
+<!--Ion button for fashion and beauty-->
+
+<!-- <div style="display: flex;justify-content: space-between;">
+  <ion-content>
+    <ion-button class="">Fashion</ion-button>
+  </ion-content>
+  <ion-button shape="round" fill="outline" color="dark">Beauty</ion-button>
+</div> -->
+
+
+<!-- circular avtar pics -->
+<ion-grid>
+  <ion-row>
+    <ion-col size="auto">
+      <ion-avatar>
+        <img src="https://nypost.com/wp-content/uploads/sites/2/2018/06/men-shopping-masculine.jpg?quality=75&strip=all" [routerLink]="['/mens']">
+      </ion-avatar>
+    </ion-col>
+    <ion-col size="auto">
+      <ion-avatar>
+        <img src="https://img.freepik.com/free-photo/beautiful-smiling-young-blonde-woman-pointing-sunglasses-holding-shopping-bags-credit-card-pink-wall_496169-1506.jpg" [routerLink]="['/womens']" >
+      </ion-avatar>
+    </ion-col>
+    <ion-col size="auto">
+      <ion-avatar>
+        <img src="https://t3.ftcdn.net/jpg/02/11/82/88/360_F_211828832_OnMaambs24g0vZM8HLjqZ8tU5wH4y1oD.jpg" [routerLink]="['/kids']">
+      </ion-avatar>
+    </ion-col>
+    <ion-col size="auto">
+      <ion-avatar>
+        <img src="https://www.indiafilings.com/learn/wp-content/uploads/2021/07/shutterstock_1936820344-1.jpg">
+      </ion-avatar>
+    </ion-col>
+    <ion-col size="auto">
+      <ion-avatar>
+        <img src="https://images.unsplash.com/photo-1574271143515-5cddf8da19be?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2lybGJvc3N8ZW58MHx8MHx8fDA%3D&w=1000">
+      </ion-avatar>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<!--slider-->
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.myportfolio.com/e7a38f0258bffc559c2d42a7d2a9389f/68fdc702-0a83-4dfd-87d7-945becec6043_rw_1920.jpg?h=2445622ee3c23676e2a668536d22972d" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://constant.myntassets.com/pwa/assets/img/sne-sharable-banner-adapt-2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn1.desidime.com/topics/photos/1350833/original/2ddcd045-00fe-4409-bab9-bb78a5e6660e1632554603260-landing-page-banner-img-eors-400.jpg?1632581715" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn0.desidime.com/cdn-cgi/image/fit=contain,f=auto,onerror=redirect,w=1200,h=675,q=90/attachments/photos/775658/original/myntra-eors-nowlive-desidime-festival-banner-app.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.grabon.in/gograbon/images/web-images/uploads/1673331490888/myntra-offers.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<!--Image less widht-->
+<ion-img
+  src="https://checknshop.in/wp-content/uploads/2021/10/myntra-sale.jpg"
+  alt="..."
+></ion-img>
+<br>
+<ion-img
+  src="https://images.freekaamaal.com/post_images/1565677379.png"
+  alt="..."
+></ion-img>
+<br>
+
+<!--container div-->
+
+<!-- <br>
+<div class="container">
+  <div class="row">
+    <ion-card>
+      <img alt="ionimg" src="https://pbs.twimg.com/media/ESaGIE-UMAEp1oV.jpg"/>
+      <ion-card-header>
+        <ion-card-subtitle color="dark"  style="font-weight: bolder;">Let's Explore shopping for boys and girls </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content color="	#800080" style="font-family: cursive; font-weight: bolder">
+
+      </ion-card-content>
+    </ion-card>
+  </div>
+</div> -->
+
+
+<!--sliders-->
+
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="https://shorturl.at/mADTX" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://freeday.in/wp-content/uploads/2022/09/myntra-referral-code.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://pbs.twimg.com/media/DkdW7LTVsAA2db7.jpg" alt="Second slide" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2022/09/15/200530-untitled-design-2022-09-15t174229297.jpg?itok=kfAdZhu4" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+
+<ion-img
+  src="https://www.gyftr.com/blog/wp-content/uploads/2019/04/banners21554285340.jpg"
+  alt="..."
+></ion-img>
+<br>
+
+<!--for pic grid-->
+
+<div id="divpink">
+  <ion-grid>
+    <ion-row>
+      <h4 class="divbrnd"> TOP BRANDS TO BAG </h4>
+    </ion-row>
+    <ion-row>
+      <ion-col><ion-img
+        src="https://shorturl.at/fhrx5" alt="pic1" class="divbrdr"></ion-img></ion-col>
+      <ion-col><ion-img
+        src="https://shorturl.at/fhrx5" alt="zara" class="divbrdr"></ion-img></ion-col> 
+
+    </ion-row>
+  </ion-grid>
+</div>
+<br>
+
+<!-- <ion-button shape="round" style="text-transform: initial; font-family: cursive; padding-left: 100px;" [routerLink]="['/sidebar']" > Continue shopping </ion-button>   -->
+
+<ion-img
+  src="https://images.freekaamaal.com/post_images/1645763749.webp" alt="...">
+</ion-img>
+<br>
+<div>
+  <h4 class="divbrnd"> SPONSERED BRANDS </h4>
+  <ion-grid>
+    <ion-row>
+      <ion-col><ion-img
+        src="https://pbs.twimg.com/media/EAYNOGXWsAEirVf.jpg" alt="pic1"></ion-img></ion-col>
+      <ion-col><ion-img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0BTQdBBwGrwYPlk1Hs10T0jjdmQfZ0pJYGsUS47iKeX7wxKkaz0GRCXSU49xA-dudjfw&usqp=CAU" alt="zara"></ion-img></ion-col> 
+    </ion-row>
+  </ion-grid>
+</div>
+<br>
+<div id="divgreen">
+  <ion-grid>
+    <ion-row>
+      <h4 class="divbrnd"> INSIDER ZONE FOR YOU! </h4>
+    </ion-row>
+    <ion-row>
+      <ion-col><ion-img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAiW5QOoZjdrLqe0rCzw1HBQSKiRd5eTHCoicjweln8vcezkqrGjUlywNoCGBL6GOESlw&usqp=CAU" alt="pic1" class="divbrdr"></ion-img></ion-col>
+      <ion-col><ion-img
+        src="https://pbs.twimg.com/media/EFotqZAU0AElhh9.jpg" alt="zara" class="divbrdr"></ion-img></ion-col> 
+    </ion-row>
+    <ion-row>
+      <ion-col><ion-img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSAZbmq6rLZPL3NW0CmSZt5LS9CkWDoT_3pw&usqp=CAU" alt="pic1" class="divbrdr"></ion-img></ion-col>
+      <ion-col><ion-img
+        src="https://shorturl.at/moTV4" alt="zara" class="divbrdr"></ion-img></ion-col> 
+    </ion-row>
+  </ion-grid>
+</div>
+<br>
+
+</ion-content>
+
+

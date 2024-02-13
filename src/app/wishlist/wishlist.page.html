@@ -1,0 +1,81 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="font-size: medium;">
+      <img (click)="f1()" style="margin-right: 0.6em;" width="28" height="30" src="https://img.icons8.com/ios-filled/50/000000/left.png" alt="left" />  <b>WISHLIST</b> 
+      <img style="float: right;" width="22" height="22" src="https://img.icons8.com/ios/50/shopping-bag--v1.png" alt="shopping-bag--v1"  [routerLink]="['/cart']"/>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid [fixed]="true">
+    <ion-row>
+      <ion-col><ion-img style="height:50px; width: 50px;"
+        src="https://pbs.twimg.com/media/CmQ0lC7UkAAmqvq.png"
+        alt="..."></ion-img></ion-col>
+
+      <ion-col><h6 style="color: rgb(199, 192, 54); font-family: serif;"> <b>SALE IS LIVE</b>  </h6> </ion-col>
+
+      <ion-col><ion-img style="height:50px; width: 50px;"
+        src="https://pbs.twimg.com/media/CmQ0lC7UkAAmqvq.png"
+        alt="..."></ion-img></ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div style="display: flex;justify-content: space-between;">
+ 
+    <ion-button shape="round" fill="outline" color="danger" >Collection</ion-button>
+    <ion-button shape="round" fill="outline" color="dark">All</ion-button>
+    <ion-button shape="round" fill="outline" color="dark">Shirts</ion-button>
+    <ion-button shape="round" fill="outline" color="dark">Tshirts</ion-button>
+    <ion-button shape="round" fill="outline" color="dark">Jeans</ion-button>
+  </div>
+
+  <ion-grid [fixed]="true">
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <img alt="..." src="https://assets.ajio.com/medias/sys_master/root/20210922/bV0v/614a28a7aeb269a2689deb85/-473Wx593H-460890911-white-MODEL2.jpg" />
+          <ion-card-header>
+            <ion-card-title>Snitch</ion-card-title>
+            <ion-card-subtitle>$199 <s>$599</s><span style="color: rgb(241, 33, 67);">(59%OFF)</span> </ion-card-subtitle>
+            <ion-card-subtitle> Price dropped by $100</ion-card-subtitle>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card>
+          <img alt="..." src="https://m.media-amazon.com/images/I/51qFPZxApOL._AC_SX466_.jpg" />
+          <ion-card-header>
+            <ion-card-title>Bewakoof</ion-card-title>
+            <ion-card-subtitle>$99 <s>$199</s><span style="color: rgb(241, 33, 67);">(59%OFF)</span> </ion-card-subtitle>
+            <ion-card-subtitle> Price dropped by $100</ion-card-subtitle>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <img alt="..." src="https://assets.ajio.com/medias/sys_master/root/20210922/bV0v/614a28a7aeb269a2689deb85/-473Wx593H-460890911-white-MODEL2.jpg" />
+          <ion-card-header>
+            <ion-card-title>Snitch</ion-card-title>
+            <ion-card-subtitle>$199 <s>$599</s><span style="color: rgb(241, 33, 67);">(59%OFF)</span> </ion-card-subtitle>
+            <ion-card-subtitle> Price dropped by $100</ion-card-subtitle>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card>
+          <img alt="..." src="https://m.media-amazon.com/images/I/51qFPZxApOL._AC_SX466_.jpg" />
+          <ion-card-header>
+            <ion-card-title>Bewakoof</ion-card-title>
+            <ion-card-subtitle>$99 <s>$199</s><span style="color: rgb(241, 33, 67);">(59%OFF)</span> </ion-card-subtitle>
+            <ion-card-subtitle> Price dropped by $100</ion-card-subtitle>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+</ion-content>
